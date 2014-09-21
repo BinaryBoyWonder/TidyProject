@@ -1,0 +1,39 @@
+Codebook for output of run_analysis.R function.
+
+Identification Varibles:
+
+  Test.Subject
+    A numerical value representing the individual tested in the experiement. 
+    This is a unique value per individual ranging from 1:30
+    
+  Activity
+    Numerical value ranging from 1:6 representing the activity the measurements are from
+    
+  Activity.Name
+    A easy-to-read representation of the Activity (see above)
+    
+Measurement Variables
+  
+  The measurement are encoded with shorten words to reduce the column names for excel and other program display. The follow key can be used to additionally identify the column names
+  
+    std
+      Standard Deviation for this measurement
+      
+    mean
+      the mean average for this measurement
+      
+    X,Y or Z
+      direction in 3-dimentional space of the measurement
+      
+    BodyAcc
+      Acceleration of the test subject
+      
+    GravityAcc
+      Gravitational Acceleratiob 
+      
+    Jerk
+      Immediate and sudden change is measurement
+      
+    BodyGyro
+      Rotation measurement
+  
