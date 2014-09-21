@@ -58,12 +58,3 @@ run_analysis <- function () {
 }
 
 
-qTest<-function()
-{
- 
-  l<-character()
-  for(i in test) {
-    l<-c(l,short$V2[[i]])
-  }
-  l
-}
